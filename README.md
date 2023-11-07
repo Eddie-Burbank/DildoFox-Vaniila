@@ -1,7 +1,7 @@
 # DildoFox
 
 
----- NEW VERSION: *DILDOFOX VANILLA*(Stable) RELEASED ----
+---- NEW VERSION: *DILDOFOX VANILLA* (Stable) RELEASED ----
 
 
 This new package of Vanilla Dildofox has been updated to gain back full browser functionality for those that need it.
