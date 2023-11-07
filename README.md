@@ -4,7 +4,7 @@
 ---- NEW VERSION: *DILDOFOX VANILLA* (Stable) RELEASED ----
 
 
-This new package of Vanilla Dildofox has been updated to gain back full browser functionality for those that need it.
+This new package of Dildofox Vanilla has been updated to gain back full browser functionality for those that need it.
 
 The mozilla.cfg and policies.json have been updated and all settings are now unlocked to enable easy configuration changes in the settings GUI or the about:config console. The configurations are set to the DildoFox default to achieve the highest level of security and privacy but can now be changed and tailored to suit your own personal needs easily and quickly without leaving the browser.
 
