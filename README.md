@@ -1,5 +1,46 @@
 # DildoFox
 
+
+--- Vanilla Version Now Available ---
+
+
+This new package of Vanilla Dildofox has been updated to gain back full browser functionality for those that need it.
+
+The mozilla.cfg and policies.json have been updated and all settings are now unlocked to enable easy configuration changes in the settings GUI or the about:config console. The configurations are set to the DildoFox default to achieve the highest level of security and privacy but can now be changed and tailored to suit your own personal needs easily and quickly without leaving the browser.
+
+The latest version of ESR 115.4.0 has been used in this build.
+
+Unlike the previous build, the omni.ja files remain unchanged apart from icons, so 100% of the browsers standard functions will work fine.
+
+The few minor changes to the actual package include:
+
+- Removal of the Ping Sender
+- Removal of the defaultbrowseragent files
+- Removal of the updater and crash reporter
+
+Another change is the addition of open source 'I Still Don't Care About Cookies' extension.
+
+The DildoFox Config files folder has been removed and the Tor Control folder is now located in the base install directory.
+
+This is just a pre-release of the full version of DildoFox I am working on, where all privacy implicating functions are removed from the source code. The current version (0.7.3) is half way done on this front, but a few things are broken in it, like the ability to add your own extensions, bookmarks and a few other things. I have decided to start again on my envisioned DildoFox, this time using the latest version of ESR and maintaining full functionality while eliminating all observing functions. This will be time consuming and I am planning to have it completed early in the new year, so until then, version 0.7.3 will remain posted for testing and for people to have a geez at where I'm going with it.
+
+This Vanilla Version of DildoFox gives you the best security and privacy based settings right out the box and no configuration is needed other than allowing the extensions to run in private mode.
+
+** This version is recommended for most people as it's completely stable and provides full browser functionality. ** 
+
+** The 0.7.3 version should only be used by people wanting to test and inspect the edited omni files knowing full well about the broken functions. **
+
+For more information and instructions please continue reading about the previous release below.
+
+
+Peace in the Middle East.
+
+Edward Burbank
+
+
+-------------------------------------------------------------------------------------------------
+
+
 --- VERSION 0.7.3 UPDATE ---
 
 In this updated version of DildoFox the entire browser/omni.ja has been completely re-worked. 99% of ALL Telemetry, Observer and Heuristics functions have been completely removed from the source code. The few Observers that remain are to maintain core browser functionality only.
@@ -16,9 +57,11 @@ In this updated version of DildoFox the entire browser/omni.ja has been complete
 
 Known Bug:
 
--   I am aware that the ability to add extensions from the repository is broken. Instructions on how to add extensions will be outlined further on in this document.
+-   I am aware that the ability to add extensions from the repository is broken. Instructions on a add extensions workaround will be outlined further on in this document.
+
 
 -----------------------------------------------------------------------------------------------
+
 
 Version 0.7.3 (Beta) (Progress Test Build)
 
@@ -44,7 +87,7 @@ Included Extensions;
 
 Configuring TOR:
 
-The TOR Control extension is installed in this build. To configure, set Tor Control to allow in private browsing mode under the extensions manager. Then go to the extension and click the on/off button. This will bring up the options menu, where you need to set the PATH to the ROOT directory the tor.exe file is located in. By default it is; C:\Program Files\DildoFox\DildoFox Config Files\Tor Control Configuration\Tor You can also adjust your webRTC settings from this page. Once you have set the PATH to the directory the tor.exe is located in, move to the C:\Program Files\DildoFox\DildoFox Config Files\Tor Control Configuration\Agent directory and run the 'install.bat' file. Now TOR is configured to use with DildoFox.
+The TOR Control extension is installed in this build. To configure, set Tor Control to allow in private browsing mode under the extensions manager. Then go to the extension and click the on/off button. This will bring up the options menu, where you need to set the PATH to the ROOT directory the tor.exe file is located in. By default it is; C:\Program Files\DildoFox\DildoFox Config Files\Tor Control Configuration\Tor You can also adjust your webRTC settings from this page. Once you have set the PATH to the directory the tor.exe is located in, move to the C:\Program Files\DildoFox\DildoFox Config Files\Tor Control Configuration\Agent directory and run the 'install.bat' file. Now DildoFox is configured to use TOR.
 
 Remember to configure CookieAutoDelete. 'Enable Auto-Cleaning' is 'off' by default so you need to make sure to check this. In the settings menu, switch time it takes to clear cookies from 15 seconds to 1 second and check all boxes under 'Automatic Cleaning Options' and also check all the boxes under the 'Other Browsing Data Clean Up' section to ensure you clear all site data when exiting a tab and check the box that says 'Enable support for Container Tabs.
 
@@ -74,7 +117,7 @@ It's a bit tricky but necessary until i fix the adding extensions function. But 
 
 The Default Search Engines have been removed except DuckDuckGo. SearX, Metager and a couple others have been added. Other Search Engines such as Google, Bing and Twitter have all been disabled and removed via the policies.json file under the extensions branch. The default Search Engine is set to DuckDuckGoLite as this version of DDG has less sponsored content. 
 
-* I borrowed this line of code from LibreWolf as I was having a few problems with this particular section. *
+**  ** I borrowed this line of code from LibreWolf as I was having a few problems with this particular section. ** **
 
 Upon startup, the only settings you should need to change are; Enable Extensions to work in private browsing mode, configure your extensions and add them to your toolbar for easy adjustments and access. You should also enter about:profiles and delete the second not in use default profile.
 
@@ -114,11 +157,9 @@ Another note on folders;
 
 While the ROOT directory in C:\Program Files\ is named DildoFox, the profile and cache folders are still named Mozilla. These can be found in their usual places at C:\Users\*UserName*\AppData\Local\Mozilla and C:\Users\*UserName*\AppData\Roaming\Mozilla respectively.
 
-Since I used a custom installer for the package, this build of Firefox will not make any registry entries.
-
 You may notice within the policies.json and mozilla.cfg files that there are no (sanitizeOnShutdown) settings. I had these enabled at first, but when I was testing the build, firefox would be extremely memory instensive in the task manager with many processes. It would also hang on exit leaving the processes running and would generate cache in the /Temp folder. After much trial and error, I found that it was the Sanitize settings doing this. They clashed with the history and cookie policies in place so I got rid of them. The browser is set to private browsing mode at all times so when you close Firefox, everything is cleared anyway. Not having the Sanitize settings, wont affect the privacy or the clearing of data at all. They are however enabled in the user.js and when using this file there are no issues with processes, caching or hanging on exit.
 
-You should be reminded to delete all folders in the C:\Users\*User*\AppData\Local\Mozilla\Firefox\Profiles\*Profile*\ except \startupCache as this is the only folder that generates cache. And please, delete as much of your system cache as regularly as you can!
+You should be reminded to delete all folders in the C:\Users\*UserName*\AppData\Local\Mozilla\Firefox\Profiles\*Profile*\ except \startupCache as this is the only folder that generates cache, but delete the contents of this folder often. And please, delete as much of your system cache as regularly as you can!
 
 If you are having trouble with Captcha's, things to check or alter are:
 
@@ -128,7 +169,7 @@ If you are having trouble with Captcha's, things to check or alter are:
 
 Usually a combination of these will fix Captcha problems, but beware; not all the time. An endless loop of captchas sometimes occurs and is usually due to a UserAgent setting.
 
-Bookmarks and bookmark functions have been completely disabled as bookmarks can be used to fingerprint.
+Bookmark functions have been completely disabled as bookmarks can be used to fingerprint.
 
 A lot of URL's that ping back to FireFox servers have been removed except the extensions repository. All screenshot functions that send data back to firefox have been completely removed from the source code by editing the omni.ja file. 'Telemetry', 'Anonymous Content', 'Observers', 'ScreenShot' and 'Heuristics' functions have been about 99% completely removed from the browser/omni.ja file and the only telemetry and observers that remain are the ones that were needed to maintain core functionality. All update functions have been either disabled or removed to prevent overwriting of these files.
 
