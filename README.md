@@ -1,7 +1,9 @@
 # DildoFox
 
 
---- Vanilla Version Now Available ---
+--- Vanilla Version Now Available For Windows and Linux---
+
+** Click on 'Releases' to the right, then select the installer for your operating system **
 
 
 This new package of Vanilla Dildofox has been updated to gain back full browser functionality for those that need it.
