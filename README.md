@@ -18,7 +18,7 @@ The few minor changes to the actual package include:
 - Removal of the defaultbrowseragent files
 - Removal of the updater and crash reporter
 
-Another change is the addition of open source 'I Still Don't Care About Cookies' extension.
+Another change is the addition of the open source 'I Still Don't Care About Cookies' extension.
 
 The DildoFox Config files folder has been removed and the Tor Control folder is now located in the base install directory.
 
