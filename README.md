@@ -57,18 +57,6 @@ Usually a Combination of these will fix "Captcha" Problems, BUT BEWARE; Not All 
 
 All Settings within the ".cfg" and ".json" files are "UNLOCKED". This means that Any Setting can be Changed either from the "Settings-GUI" or the "about:config" Editor without leaving the Browser.  
 
-I have also Removed all the Default "Extension .xpi's" from the Default "\browser\features\" folder. Most of these are Disabled in the Configuration Settings so there was no need to keep them. Plus, it adds Security and Privacy by stopping these Extensions from reaching out to the Net while Installing on First Boot.
-
-The List of Removed Default Extensions is as Follows;
-
-- formautofill@mozilla
-- pictureinpicture@mozilla
-- screenshots@mozilla   
-- webcompat@mozilla 
-- webcompat-reporter@mozilla
-
-**** You will Not be able to use the "Picture in Picture" or the Inbuilt Browser "Screenshot" Functions Unless you Reinstall these from the "Mozilla AddOns repository". ****
-
 A few other things like the "Updater.exe" and "PingSender.exe" have been Removed from the "Default FireFox Package".
 
 The Configuration Files are included in "SourceCode.zip" file you will get when Downloading "DildoFox" from my "GitHub" page. Feel free to have a look at the Settings and Add, Remove or Change these as you see fit. Included in ".zip" package is also an Optional Extra "user.js" file. Unlike the ".cfg" file where the Settings are kept place, the "user.js" has a description of what all changes do to make for Easy Editing. This file can be used on your own Default "FireFox Browser Installs" with your own Extensions and Settings easily by simply "Pasting The File Into Your "Profiles" Folder". It is based on the "ArkenFox" Guidelines with many extra Configuration Changes, but Edited and Re-Written from Scratch to make it more Comprehensive and Easier to Read and Understand.
