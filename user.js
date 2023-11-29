@@ -874,6 +874,7 @@ user_pref("privacy.sanitize.timeSpan", 0);
 
 // Enable Resist Fingerprinting:
 user_pref("privacy.resistFingerprinting", true);
+user_pref("privacy.resistFingerprinting.letterboxing", true);
 
 
 // Spoof Language Values:
