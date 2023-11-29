@@ -51,7 +51,7 @@ If you are Having Trouble with "Captcha's", Things to Check or Alter are:
 
 - Enable "Javascript" within "NoScript"         
 - Adjust "UserAgentSwitcher" or "Reset Settings to Default"
-- "Change or Disable" "Tor Identity"
+- Change or Disable "Tor Identity"
 
 Usually a Combination of these will fix "Captcha" Problems, BUT BEWARE; Not All The Time. An "Endless Loop" of "Captcha's" Sometimes Occurs and is Usually due to a "UserAgent" Setting.
 
