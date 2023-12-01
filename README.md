@@ -122,7 +122,7 @@ Edward Burbank
 
 ---------------------- LINKS: ------------------------------
 
-Here are some links to programs that I use and "Work Well In Conjunction With DildoFox":
+Here are some links to programs that I use that work well in conjunction with DildoFox:
  
 - www.nordvpn.com   
 - www.mullvad.net   
