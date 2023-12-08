@@ -10,7 +10,7 @@ This is my custom Firefox configuration optimized for maximum privacy & security
 I Felt that the Arkenfox user.js and other profiles you can find online are a little incomplete, so I built my own from scratch. I used Arkenfox as a template, adding settings and changing things as I saw fit. I feel it's much more complete than other user.js files and have packaged it up for others to test and use as a template to make their own changes. As the build progressed I started making more changes and adding things like the mozilla.cfg file and the policies.json file until eventually I decided to package all the configuration files into a deployable installer package that had pre installed extensions and was ready to run out box with no changes needed. I like to think of this setup as a happy little cross between LibreWolf, Tor-Browser and the ArkenFox guide-lines.
 
 
-This browser has the full functionality a regualr FireFox browser has and with the pre-configured settings and the most sensible pre-installed extensions in place, there is NO reason that the privacy concerned individual should NOT use this browser as their daily driver.
+This browser has the full functionality a regular Firefox browser has and with the pre-configured settings and the most sensible pre-installed extensions in place, there is NO reason that the privacy concerned individual should NOT use this browser as their daily driver.
 
 
 This browser can be used right out the box with all configuration changes suited for maximum-privacy and security pre set in place. There is no need to create profiles, change any Settings or install extensions on first boot which helps to greatly reduce fingerprinting.
