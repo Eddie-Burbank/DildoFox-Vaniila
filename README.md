@@ -33,7 +33,7 @@ Included Extensions;
 
 **** Configuring TOR ****
 
-The TOR-Control extension is pre-installed with this build. To configure, set Tor-Control to allow in private browsing mode under the extensions manager. Then go to the extension and click the ON/OFF button. This will bring up the options menu, where you need to set the PATH to the DIRECTORY the tor.exe file is located in. By default it is; "C:\Program Files\DildoFox\Tor-Control\Tor". You can also adjust your WebRTC settings from this page. Once you have set the PATH to the DIRECTORY the tor.exe is located in, move to the "C:\Program Files\DildoFox\Tor-Control\Agent" directory and Run the install.bat file as administrator. Now DildFox is configured to use the Tor Service.
+The TOR-Control extension is pre-installed with this build. To configure, set Tor-Control to allow in private browsing mode under the extensions manager. Then go to the extension and click the ON/OFF button. This will bring up the options menu, where you need to set the PATH to the DIRECTORY the tor.exe file is located in. By default it is; "C:\Program Files\DildoFox\Tor-Control\Tor". You can also adjust your WebRTC settings from this page. Once you have set the PATH to the DIRECTORY the tor.exe is located in, move to the "C:\Program Files\DildoFox\Tor-Control\Agent" directory and Run the "install.bat" file as administrator. Now DildFox is configured to use the Tor Service.
 
 This extension is optional and manual proxy-configurations can still be added from the settings-GUI.
 
