@@ -33,6 +33,11 @@ I have updated DildoFox to give it some extra functionality and make it easier t
 
 - The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
 
+
+
+
+
+
 **** Notes & Instructions: ****
 
 This is my custom Firefox configuration optimized for maximum privacy & security. Packaged into a fully functional browser that works instantly.
