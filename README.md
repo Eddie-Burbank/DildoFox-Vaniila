@@ -2,41 +2,36 @@ DildoFox (Vanilla)
 
 Version: 0.9.9
 
-WHATS NEW:
+********* WHATS NEW *********
 
 I have updated DildoFox to give it some extra functionality and make it easier to use for the everyday person.
 
-- The (dom.storage) config is now at it's default value to 'True'. This setting greatly increases security but also breaks sites and denies access to your router. I changed to setting to increase basic usability. It is recommended to enter the 'about:config' editor and set this 'False' and revert back to 'True' only when you need to.
+The (dom.storage) config is now at it's default value to 'True'. This setting greatly increases security but also breaks sites and denies access to your router. I changed to setting to increase basic usability. It is recommended to enter the 'about:config' editor and set this 'False' and revert back to 'True' only when you need to.
 
-- The browser no longer defaults to Private Browsing mode. According to LibreWolf, this setting makes you more fingerprintable so I disabled it. To compensate, the following sanitize settings have been added to the .cfg file:
+The browser no longer defaults to Private Browsing mode. According to LibreWolf, this setting makes you more fingerprintable so I disabled it. To compensate, the following sanitize settings have been added to the .cfg file:
 
-  defaultPref("privacy.sanitize.sanitizeOnShutdown", true); 
-  defaultPref("privacy.clearOnShutdown.cache", true);
-  defaultPref("privacy.clearOnShutdown.cookies", true);
-  defaultPref("privacy.clearOnShutdown.downloads", true);
-  defaultPref("privacy.clearOnShutdown.formdata", true);
-  defaultPref("privacy.clearOnShutdown.history", true);
-  defaultPref("privacy.clearOnShutdown.offlineApps", true);
-  defaultPref("privacy.clearOnShutdown.sessions", true);
-  defaultPref("privacy.clearOnShutdown.sitesettings", true);
-  defaultPref("privacy.sanitize.timeSpan", 0);
+- defaultPref("privacy.sanitize.sanitizeOnShutdown", true); 
+- defaultPref("privacy.clearOnShutdown.cache", true);
+- defaultPref("privacy.clearOnShutdown.cookies", true);
+- defaultPref("privacy.clearOnShutdown.downloads", true);
+- defaultPref("privacy.clearOnShutdown.formdata", true);
+- defaultPref("privacy.clearOnShutdown.history", true);
+- defaultPref("privacy.clearOnShutdown.offlineApps", true);
+- defaultPref("privacy.clearOnShutdown.sessions", true);
+- defaultPref("privacy.clearOnShutdown.sitesettings", true);
+- defaultPref("privacy.sanitize.timeSpan", 0);
 
-- The OCSP settings are now in their default state.
+The OCSP settings are now in their default state.
 
-- The Login Manager has been re-enabled in the policies.json file, however, it is recommended to use a third party password manager.
+The Login Manager has been re-enabled in the policies.json file, however, it is recommended to use a third party password manager.
 
-- These default extensions have been removed:
+These default extensions have been removed:
 
-    screenshots.xpi
-    webcompat.xpi
-    webcompatreporter.xpi
+- screenshots.xpi
+- webcompat.xpi
+- webcompatreporter.xpi
 
-- The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
-
-
-
-
-
+The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
 
 **** Notes & Instructions: ****
 
@@ -52,15 +47,15 @@ There is a selection of extensions pre-installed which don't need to be installe
 
 Included Extensions;
 
-    UBlock Origin
-    Privacy Badger
-    NoScript Security Suite
-    UserAgentSwitcher & Manager
-    Canvas Blocker
-    Cookie Auto-Delete
-    Foxy Proxy
-    Tor-Control
-    My IP: (Custom Extension I Created for DildoFox)
+- UBlock Origin
+- Privacy Badger
+- NoScript Security Suite
+- UserAgentSwitcher & Manager
+- Canvas Blocker
+- Cookie Auto-Delete
+- Foxy Proxy
+- Tor-Control
+- My IP: (Custom Extension I Created for DildoFox)
 
 **** Configuring TOR ****
 
@@ -84,10 +79,10 @@ Remember to adjust your JavaScript settings on a per site basis" using NoScript.
 
 If you are having trouble with Captcha's, things to check or alter are:
 
-    Enable Javascript within NoScript
-    Adjust UserAgentSwitcher or reset settings to default
-    Disable or change settings on Canvas Blocker
-    Change Tor identity
+- Enable Javascript within NoScript
+- Adjust UserAgentSwitcher or reset settings to default
+- Disable or change settings on Canvas Blocker
+- Change Tor identity
 
 Usually a combination of these will fix Captcha problems, BUT BEWARE; not all the time. An endless loop of Captcha's sometimes occurs and is usually due to a UserAgent or Canvas setting.
 
@@ -119,36 +114,36 @@ Edward Burbank
 
 ---------------------- Tools Used: -----------------------
 
-    Firefox ESR 115.4.0
-    LibreWolf
-    ArkenFox
-    Visual Studio Code
-    Notepad++
-    Sublime Text
-    7zr
-    WinRAR
-    Windows Terminal
-    Photoshop
-    InstallForge
-    Resource Hacker
-    GitHub
+- Firefox ESR 115.4.0
+- LibreWolf
+- ArkenFox
+- Visual Studio Code
+- Notepad++
+- Sublime Text
+- 7zr
+- WinRAR
+- Windows Terminal
+- Photoshop
+- InstallForge
+- Resource Hacker
+- GitHub
 
 ---------------------- LINKS: ------------------------------
 
 Here are some links to programs that I use and work well in conjunction with DildoFox:
 
-    www.nordvpn.com
-    www.mullvad.net
-    www.simplednscrypt.org
-    www.technitium.com/tmac/
-    www.glarysoft.com
-    www.torproject.org
+- www.nordvpn.com
+- www.mullvad.net
+- www.simplednscrypt.org
+- www.technitium.com/tmac/
+- www.glarysoft.com
+- www.torproject.org
 
 Other useful links to check out while testing the functionality of the browser:
 
-    www.amiunique.org
-    www.coveryourtracks.eff.org
-    www.check.torproject.org
+- www.amiunique.org
+- www.coveryourtracks.eff.org
+- www.check.torproject.org
 
 **** LICENSE ****
 
