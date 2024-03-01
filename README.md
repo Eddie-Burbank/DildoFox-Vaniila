@@ -10,16 +10,16 @@ I have updated DildoFox to give it some extra functionality and make it easier t
 
 - The browser no longer defaults to Private Browsing mode. According to LibreWolf, this setting makes you more fingerprintable so I disabled it. To compensate, the following sanitize settings have been added to the .cfg file:
 
-    defaultPref("privacy.sanitize.sanitizeOnShutdown", true); 
-    defaultPref("privacy.clearOnShutdown.cache", true);
-    defaultPref("privacy.clearOnShutdown.cookies", true);
-    defaultPref("privacy.clearOnShutdown.downloads", true);
-    defaultPref("privacy.clearOnShutdown.formdata", true);
-    defaultPref("privacy.clearOnShutdown.history", true);
-    defaultPref("privacy.clearOnShutdown.offlineApps", true);
-    defaultPref("privacy.clearOnShutdown.sessions", true);
-    defaultPref("privacy.clearOnShutdown.sitesettings", true);
-    defaultPref("privacy.sanitize.timeSpan", 0);
+  defaultPref("privacy.sanitize.sanitizeOnShutdown", true); 
+  defaultPref("privacy.clearOnShutdown.cache", true);
+  defaultPref("privacy.clearOnShutdown.cookies", true);
+  defaultPref("privacy.clearOnShutdown.downloads", true);
+  defaultPref("privacy.clearOnShutdown.formdata", true);
+  defaultPref("privacy.clearOnShutdown.history", true);
+  defaultPref("privacy.clearOnShutdown.offlineApps", true);
+  defaultPref("privacy.clearOnShutdown.sessions", true);
+  defaultPref("privacy.clearOnShutdown.sitesettings", true);
+  defaultPref("privacy.sanitize.timeSpan", 0);
 
 - The OCSP settings are now in their default state.
 
@@ -31,7 +31,7 @@ I have updated DildoFox to give it some extra functionality and make it easier t
     webcompat.xpi
     webcompatreporter.xpi
 
-- The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks 5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
+- The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
 
 **** Notes & Instructions: ****
 
