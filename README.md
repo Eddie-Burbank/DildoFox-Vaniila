@@ -1,8 +1,12 @@
-DildoFox (Vanilla)
+# DildoFox (Vanilla)
 
-Version: 0.9.9
+Version: 0.9.9.1
 
-********* WHATS NEW *********
+**** Minor Update: ****
+
+The default window size has been set to 1280x900 from 1000x1000. (Value is spoofed anyway).
+
+**** WHATS NEW ****
 
 I have updated DildoFox to give it some extra functionality and make it easier to use for the everyday person.
 
@@ -33,7 +37,68 @@ These default extensions have been removed:
 
 The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
 
-**** Notes & Instructions: ****
+**** ABOUT ****
+
+Dildofox (Vanilla) is a privacy and security based fork of the Firefox ESR 115 web browser. With over 400 policy and configuration changes based on the 'Arkenfox' guidelines, plus a selection of extensions to aid in the spoofing of the browser fingerprint and IP address, Dildofox has the potential to be a powerful tool in the Trolls arsenal.
+
+Since everything is included in the installer image of the browser and ready run right out the box with no configuration changes needed, there is no need to mess around with user.js files, creating profiles or downloading extensions which helps to greatly reduce the browser fingerprint.
+
+Unlike the upcoming (Archangel) variant of Dildofox, the (Vanilla) version keeps all original Firefox source-code intact. This is useful for those wanting to use a private and secure web browser with all the modern features Mozilla provides.
+
+A handful of default .exe and .xpi files such as the PingSender and WebCompatReporter have been removed from the package to increase security and limit the browsers ability to send outgoing data further than just the configuration changes alone.
+
+The settings in place are designed to find a happy balance of privacy, security and usability. While a good portion of the settings in place are based on the 'Arkenfox' Firefox Security Guide, many extra ones have been added by me to boost the privacy of the browser.
+
+**** Google Proof ****
+
+While 'Google Safe Browsing' is a nice security feature, it has been completely removed from Dildofox using over 30 configuration changes. This is because in order for the function to work, data of visited URL's and Downloads are all sent to Google servers to be monitored. Since this is a privacy based browser designed for the Cave Dwelling Troll, all URL's that report to either Google or Mozilla have either been disabled or removed to ensure that your data stays private.
+
+**** Unlocked Settings ****
+
+All configuration and policy changes are 'Unlocked' and can easily be edited from the Settings GUI or the 'about:config' and 'about:policies' editors. You are encouraged to play around with the configuration and change things to suit your own needs and threat model.
+
+The settings and polices in place are too great in number to list on this page, some features will be listed below and you can view the full configuration files from the (Source Code) page of this site. 
+
+**** Configuration Features Include: ****
+
+- NO Telemetry
+- NO Stored Cookies
+- Resist Finger Printing Functions
+- HTTPS Only Mode
+- NO Google 'Safe Browsing'
+- Spoofed User-Agent
+- Ability to Browse .onion Domains
+- Activity Stream Removed
+- NO Outgoing Pings
+- NO DRM Content
+- NO Cache
+- NO History
+- Window Letterboxing
+- Container Tabs
+- NO Mozilla Reporting
+- Spoofed Language
+- NO Sponsored Content
+- NO Location Service
+- Pocket Disabled
+- WebRTC Disabled
+
+- Plus Many, Many More...
+
+Also included in Dildofox (Vanilla) is a selection of Proxy tools to help get past those nasty message board bans. The proxy configuration extension, 'Foxy Proxy Standard' is installed by default and can be used to configure and store multiple HTTP, HTTPS, Socks4 & Socks5 proxies and easily switch IP address in a matter of seconds. To compliment this extension, I have added a list of 100's of Proxy Servers of all protocols which can be found in your Dildofox installation folder. The list is current and will be updated with every update of Dildofox, there is also a link in the .txt file where you can find an updated list.
+
+**** Tor Proxy Service ****
+
+A TOR Proxy Service is also included in the form of the 'Onion Control' extension. This extension routes all your browser traffic through the TOR Network masking your real IP address and greatly increasing anonymity. The extension also allows you change TOR identities and IP address in seconds without having to close the browser or reset the extension. All required files such as the tor.exe are included in the installed package of Dildofox and you don't need to download any extra components. Instructions on how to setup and configure Onion Control can be found in the README file on the (Source Code) page of this site and in the '\Tor-Control' folder of your Dildofox intallation directory.
+
+**** No JavaScript ****
+
+The extension 'NoScript Security Suite' is also included and installed by default in Dildofox. This extension blocks many scripts that run on web pages which can be privacy concerning or even potentially harmful. By default the extension is set to 'Block All' so you will need to use this extension from your tool-bar to allow certain sites to display javascript elements. Unfortunately many sites use javascript and some sites you visit will break with this enabled, it is best to configure a 'White List' of your most visited sites you trust to save a bit of messing around.
+
+**** A Different Browser Fingerprint Every Site You Vist ****
+
+With the combination of 'Resist-Fingerprinting' settings in place including the 'Letterboxing' config which prevents un-natural window size when resizing the browser window, along with the 'NoScript', 'Canvas Blocker' and 'User-Agent Switcher' extensions you will actually have a different browser fingerprint on every page you visit. Dildofox takes a different approach to the 'Tor Browser', where the practice is to blend in. Instead, with the current configuration, the browser fingerprint is constantly changing making you appear as a different user every time you visit a site.
+
+********* Notes & Instructions: *********
 
 This is my custom Firefox configuration optimized for maximum privacy & security. Packaged into a fully functional browser that works instantly.
 
@@ -53,7 +118,7 @@ Included Extensions;
 - UserAgentSwitcher & Manager
 - Canvas Blocker
 - Cookie Auto-Delete
-- Foxy Proxy
+- Foxy Proxy Standard
 - Tor-Control
 - My IP: (Custom Extension I Created for DildoFox)
 
@@ -90,7 +155,7 @@ All settings within the .cfg and .json files are UNLOCKED. This means that any s
 
 A few things like the updater.exe and pingsender.exe have been removed from the default FireFox package.
 
-The configuration files are included in sourcecode.zip file you will get when downloading DildoFox from my GitHub page. Feel free to have a look at the Settings and add, remove or change these as you see fit. Included in .zip package is also an optional extra user.js file. Unlike the .cfg file where the settings are kept place, the user.js has a description of what all changes do to make for Easy editing. This file can be used on your own default FireFox browser installs with your own Extensions and settings easily by simply pasting the file into your Profiles folder. It is based on the ArkenFox Guide-lines with many extra configuration changes, but edited and re-written from scratch to make it more comprehensive and easier to read and understand.
+The configuration files are included in sourcecode.zip file you will get when downloading DildoFox from my GitHub page. Feel free to have a look at the Settings and add, remove or change these based on your own threat model or as you see fit.
 
 A Note on Folders;
 
@@ -128,10 +193,11 @@ Edward Burbank
 - Resource Hacker
 - GitHub
 
----------------------- LINKS: ------------------------------
+---------------------- LINKS: ---------------------------
 
 Here are some links to programs that I use and work well in conjunction with DildoFox:
 
+- www.perfect-privacy.com
 - www.nordvpn.com
 - www.mullvad.net
 - www.simplednscrypt.org
