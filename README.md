@@ -37,7 +37,7 @@ These default extensions have been removed:
 
 The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
 
-**** ABOUT ****
+********* ABOUT *********
 
 Dildofox (Vanilla) is a privacy and security based fork of the Firefox ESR 115 web browser. With over 400 policy and configuration changes based on the 'Arkenfox' guidelines, plus a selection of extensions to aid in the spoofing of the browser fingerprint and IP address, Dildofox has the potential to be a powerful tool in the Trolls arsenal.
 
