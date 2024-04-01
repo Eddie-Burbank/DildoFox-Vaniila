@@ -1,14 +1,30 @@
-# DildoFox (Vanilla)
+# Dildofox (Vanilla)
 
-Version: 0.9.9.1
+Version: 0.9.9.2
+
+dildofox.com is Now Live!
 
 **** Minor Update: ****
 
-The default window size has been set to 1280x900 from 1000x1000. (Value is spoofed anyway).
+The default window size has been changed again and is now set to 1400x900 from 1280x900.
+
+The PDF viewer function has been re-enabled within the polices file.
+
+The abiliy to change and set a custom HomePage has been re-enabled.
+
+HomePage has been added and by default is set to a custom dildofox.com landing page.
+
+Startpage has also been set as the default URLbar search engine.
+
+Default Proxy Setting has been configured to Auto-Detect.
+
+Home button widget has been added to the toolbar.
+
+The Proxy List found within your install location has been updated for the month of April.
 
 **** WHATS NEW ****
 
-I have updated DildoFox to give it some extra functionality and make it easier to use for the everyday person.
+I have updated Dildofox to give it some extra functionality and make it easier to use for the everyday person.
 
 The (dom.storage) config is now at it's default value to 'True'. This setting greatly increases security but also breaks sites and denies access to your router. I changed to setting to increase basic usability. It is recommended to enter the 'about:config' editor and set this 'False' and revert back to 'True' only when you need to.
 
@@ -37,7 +53,7 @@ These default extensions have been removed:
 
 The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
 
-********* ABOUT *********
+**** ABOUT ****
 
 Dildofox (Vanilla) is a privacy and security based fork of the Firefox ESR 115 web browser. With over 400 policy and configuration changes based on the 'Arkenfox' guidelines, plus a selection of extensions to aid in the spoofing of the browser fingerprint and IP address, Dildofox has the potential to be a powerful tool in the Trolls arsenal.
 
@@ -120,11 +136,11 @@ Included Extensions;
 - Cookie Auto-Delete
 - Foxy Proxy Standard
 - Tor-Control
-- My IP: (Custom Extension I Created for DildoFox)
+- My IP: (Custom Extension I Created for Dildofox)
 
 **** Configuring TOR ****
 
-The TOR-Control extension is pre-installed with this build. To configure, set Tor-Control to allow in private browsing mode under the extensions manager. Then go to the extension and click the ON/OFF button. This will bring up the options menu, where you need to set the PATH to the DIRECTORY the "tor.exe" file is located in. By default it is; "C:\Program Files\DildoFox\Tor-Control\Tor". You can also adjust your WebRTC settings from this page. Once you have set the PATH to the DIRECTORY the "tor.exe" is located in, move to the "C:\Program Files\DildoFox\Tor-Control\Agent" directory and Run the "install.bat" file as administrator. Now DildFox is configured to use the Tor Service.
+The TOR-Control extension is pre-installed with this build. To configure, set Tor-Control to allow in private browsing mode under the extensions manager. Then go to the extension and click the ON/OFF button. This will bring up the options menu, where you need to set the PATH to the DIRECTORY the "tor.exe" file is located in. By default it is; "C:\Program Files\Dildofox\Tor-Control\Tor". You can also adjust your WebRTC settings from this page. Once you have set the PATH to the DIRECTORY the "tor.exe" is located in, move to the "C:\Program Files\Dildofox\Tor-Control\Agent" directory and Run the "install.bat" file as administrator. Now DildFox is configured to use the Tor Service.
 
 This extension is optional and manual proxy-configurations can still be added from the settings-GUI, or by using the recently added Foxy Proxy extension.
 
@@ -136,7 +152,7 @@ The default search engines have Been removed except DuckDuckGo. SearX, Metager a
 
 **** I borrowed the search engine code from LibreWolf as I was having a few problems with this particular section. If the developers of LibreWolf object to me using this line of code, please contact me and I will change it right away. ****
 
-The configuration settings found within this Browser provide about 98% functionallity With everyday browsing, however;
+The configuration settings found within this Browser provide about 99% functionallity With everyday browsing, however;
 
 **** SOME SITES WILL BREAK ****
 
@@ -155,11 +171,11 @@ All settings within the .cfg and .json files are UNLOCKED. This means that any s
 
 A few things like the updater.exe and pingsender.exe have been removed from the default FireFox package.
 
-The configuration files are included in sourcecode.zip file you will get when downloading DildoFox from my GitHub page. Feel free to have a look at the Settings and add, remove or change these based on your own threat model or as you see fit.
+The configuration files are included in sourcecode.zip file you will get when downloading Dildofox from my GitHub page. Feel free to have a look at the Settings and add, remove or change these based on your own threat model or as you see fit.
 
 A Note on Folders;
 
-While the default install directory in "C:\Program Files" is named DildoFox, the profile and cache folders are still named Mozilla. These can be found in their usual places at "C:\Users\"UserName"\AppData\Local\Mozilla" and "C:\Users\"UserName"\AppData\Roaming\Mozilla" respectively.
+While the default install directory in "C:\Program Files" is named Dildofox, the profile and cache folders are still named Mozilla. These can be found in their usual places at "C:\Users\"UserName"\AppData\Local\Mozilla" and "C:\Users\"UserName"\AppData\Roaming\Mozilla" respectively.
 
 You should be reminded to delete all folders in the "C:\Users\"User"\AppData\Local\Mozilla\Firefox\Profiles\"Profile" directory as there is no caching" or safe browsing functions enabled with this browser. Within this directory, the "\startupCache" folder is the only one that generates cache", and to maintain a high level of privacy and security, you should clear the contents of this folder as often as you can.
 
@@ -167,7 +183,7 @@ You should be reminded to delete all folders in the "C:\Users\"User"\AppData\Loc
 
 Another thing you may notice, is that DNS over HTTPS (DoH) is disabled. This is because Firefox's default provider is Cloudflare, they are a large for-profit organization and you can't trust any company that's primary goal is financial gain. I set the default of this preference to OFF to encourage you guys to use your own host DNS service". I recommend Simple-DNSCrypt using multi-Routed anonymized DNSCrypt resolvers along with a well configured VPN. Install Simple-DNSCrypt, check enable DNSCrypt service, change your preferences to suit your needs and pick the resolvers you want to use. Then configure your VPN to use a custom DNS server, in this case, the local-host which is usually 127.0.0.1 to Enable encrypted anonymized DNS queries working alongside your VPN. **** PLEASE NOTE: **** That while using Simple-DNSCrypt with a system based Tor client such as the Tor Expert Bundle, you should change the listen address of Simple-DNSCrypt to 127.0.2.1 and enable force TCP. Use these settings along with a stand-alone VPN router as well as a host VPN and program called TMAC Mac-Changer to spoof your Mac address and you have a decent Setup, all the while avoiding Cloudflare. A program called Glary Utilities is also handy for erasing privacy-threats from hidden cache and registry entries on your PC, it is recommended to run one of these scans before you change IP on your host VPN.
 
-I built this browser to help fellow Trolls bypass bans on message boards, in particular, ones that surpress free-speech and restrict the discussion and sharing of critical information relating to current global events. A lot of discussion sites like to block users using Tor, but since DildoFox is not the Tor-Browser and is only using the Tor proxy service in cunjunction with spoofed UserAgent values, using this browser will give you access to sites that block Tor even though the service is being used. If you find yourself banned, simply open a new tab, close the tab you were banned on, let CookieAutoDelete clear the site data, switch browser UserAgent value using UserAgentSwitcher and get a new Tor identity. Message boards tend to try and block Tor servers, so if you try to re-enter the Forum and you are still banned, just switch tabs and Tor identity again and usually you'll get back in. If you use this browser correctly and with the Settings in place, you should have a different browser fingerprint everytime you visit a page. In fact, when you need to enable JavaScript for a website, because of the measures in place, along with proper use of Canvas Blocker, you are possibly less fingerprintable than if JavaScript was disabled because everything is spoofed. Please remember to use "www.amiunique.org" or "www.coveryourtracks.eff.org" to check your fingerprint regularly.
+I built this browser to help fellow Trolls bypass bans on message boards, in particular, ones that surpress free-speech and restrict the discussion and sharing of critical information relating to current global events. A lot of discussion sites like to block users using Tor, but since Dildofox is not the Tor-Browser and is only using the Tor proxy service in cunjunction with spoofed UserAgent values, using this browser will give you access to sites that block Tor even though the service is being used. If you find yourself banned, simply open a new tab, close the tab you were banned on, let CookieAutoDelete clear the site data, switch browser UserAgent value using UserAgentSwitcher and get a new Tor identity. Message boards tend to try and block Tor servers, so if you try to re-enter the Forum and you are still banned, just switch tabs and Tor identity again and usually you'll get back in. If you use this browser correctly and with the Settings in place, you should have a different browser fingerprint everytime you visit a page. In fact, when you need to enable JavaScript for a website, because of the measures in place, along with proper use of Canvas Blocker, you are possibly less fingerprintable than if JavaScript was disabled because everything is spoofed. Please remember to use "www.amiunique.org" or "www.coveryourtracks.eff.org" to check your fingerprint regularly.
 
 I hope you enjoy trying this out and please leave feedback and suggestions as this is my first time doing anything like this. I am putting this out there to learn from others who are more well-versed in this kind of thing. Please go over the configurations, test the browsers funcionallity and let me know where I can improve.
 
@@ -195,7 +211,7 @@ Edward Burbank
 
 ---------------------- LINKS: ---------------------------
 
-Here are some links to programs that I use and work well in conjunction with DildoFox:
+Here are some links to programs that I use and work well in conjunction with Dildofox:
 
 - www.perfect-privacy.com
 - www.nordvpn.com
