@@ -51,7 +51,7 @@ These default extensions have been removed:
 - webcompat.xpi
 - webcompatreporter.xpi
 
-The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
+The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st April 2024) and can be found in the '\Proxy List' folder of your default install location.
 
 **** ABOUT ****
 
