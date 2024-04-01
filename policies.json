@@ -9,7 +9,7 @@
 			"ExpireAtSessionEnd": true
 		},
 		"DisableAppUpdate": true,
-		"DisableBuiltinPDFViewer": true,
+		"DisableBuiltinPDFViewer": false,
 		"DisableDefaultBrowserAgent": true,
 		"DisableFeedbackCommands": true,
 		"DisableFirefoxAccounts": true,
@@ -45,15 +45,14 @@
 		"GoToIntranetSiteForSingleWordEntryInAddressBar": false,
 		"HardwareAcceleration": false,
 		"Homepage": {
-			"URL": "https://www.duckduckgo.com",
-			"StartPage": "none"
+			"URL": "https://www.dildofox.com/homepage",
+			"StartPage": "https://www.dildofox.com/homepage"
 		},
 		"ManualAppUpdateOnly": true,
 		"NetworkPrediction": false,
-		"NewTabPage": false,
 		"NoDefaultBookmarks": true,
 		"OfferToSaveLoginsDefault": false,
-		"OverrideFirstRunPage": "",
+		"OverrideFirstRunPage": "https://www.dildofox.com/homepage",
 		"OverridePostUpdatePage": "",
 		"PasswordManagerEnabled": true,
 		"Permissions": 
@@ -78,7 +77,7 @@
 		},
 		"PromptForDownloadLocation": true,
 		"SearchBar": "unified",
-		"ShowHomeButton": false,
+		"ShowHomeButton": true,
 		"UserMessaging": {
 			"WhatsNew": false,
 			"ExtensionRecommendations": false,
@@ -110,7 +109,7 @@
                 "eBay",
                 "Twitter"
             ],
-            "Default": "DuckDuckGo Lite",
+            "Default": "StartPage",
             "Add": [
                 {
                     "Name": "DuckDuckGo Lite",
@@ -150,7 +149,7 @@
         },
         "SupportMenu": {
             "Title": "DildoFox @ GitHub",
-            "URL": "https://github.com/Eddie-Burbank/DildoFox"
+            "URL": "https://github.com/Eddie-Burbank/"
         }
 
         }
