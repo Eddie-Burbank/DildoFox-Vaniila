@@ -52,7 +52,7 @@
 		"NetworkPrediction": false,
 		"NoDefaultBookmarks": true,
 		"OfferToSaveLoginsDefault": false,
-		"OverrideFirstRunPage": "https://www.dildofox.com/homepage",
+		"OverrideFirstRunPage": "",
 		"OverridePostUpdatePage": "",
 		"PasswordManagerEnabled": true,
 		"Permissions": 
@@ -76,7 +76,7 @@
 			"Default": true
 		},
 		"PromptForDownloadLocation": true,
-		"SearchBar": "unified",
+		"SearchBar": "separate",
 		"ShowHomeButton": true,
 		"UserMessaging": {
 			"WhatsNew": false,
@@ -109,7 +109,7 @@
                 "eBay",
                 "Twitter"
             ],
-            "Default": "StartPage",
+            "Default": "DuckDuckGo",
             "Add": [
                 {
                     "Name": "DuckDuckGo Lite",
