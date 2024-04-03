@@ -1,8 +1,8 @@
 # Dildofox (Vanilla)
 
-Version: 0.9.9.2
+dildofox.com
 
-dildofox.com is Now Live!
+Version: 0.9.9.3
 
 **** Minor Update: ****
 
@@ -10,15 +10,17 @@ The default window size has been changed again and is now set to 1400x900 from 1
 
 The PDF viewer function has been re-enabled within the polices file.
 
-The abiliy to change and set a custom HomePage has been re-enabled.
+A custom homepage has been set to a browser specific landing page from dildofox.com.
 
-HomePage has been added and by default is set to a custom dildofox.com landing page.
+DuckDuckGo has returned as the default URLbar search engine.
 
-Startpage has also been set as the default URLbar search engine.
-
-Default Proxy Setting has been configured to Auto-Detect.
+Default Proxy Setting has been set to Auto-Detect.
 
 Home button widget has been added to the toolbar.
+
+Search bar has been added to the toolbar.
+
+The local-settings.js file has been re-named to autoconfig.js to make way for further configuration changes.
 
 The Proxy List found within your install location has been updated for the month of April.
 
@@ -51,7 +53,7 @@ These default extensions have been removed:
 - webcompat.xpi
 - webcompatreporter.xpi
 
-The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st April 2024) and can be found in the '\Proxy List' folder of your default install location.
+The 'Foxy Proxy' extension has also been added along with a list of 100's HTTP, HTTPS, Socks4 & Socks5 proxy servers which is up to date as of today (1st March 2024) and can be found in the '\Proxy List' folder of your default install location.
 
 **** ABOUT ****
 
