@@ -1,6 +1,6 @@
 # Dildofox (Vanilla)
 
-dildofox.net coming soon
+dildofox.net Coming Soon.
 
 README.md will be updated for next release along with the launch of the new site.
 
